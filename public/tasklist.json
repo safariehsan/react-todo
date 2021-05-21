@@ -1,0 +1,28 @@
+[{
+        "id": 1,
+        "date": "2018-01-03T13:01",
+        "name": "task1",
+        "desc": "☕ Drink some coffee ☕",
+        "done": false,
+        "featured": false,
+        "category": "Business"
+    },
+    {
+        "id": 2,
+        "date": "2020-08-05T13:59",
+        "name": "task2",
+        "desc": "❤ I Love JavaScript ❤",
+        "done": false,
+        "featured": true,
+        "category": "Personal"
+    },
+    {
+        "id": 3,
+        "date": "2019-08-02T12:22",
+        "name": "task3",
+        "desc": "🥑 I Love ReactJS 🥑",
+        "done": true,
+        "featured": false,
+        "category": "Personal"
+    }
+]

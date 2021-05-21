@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.taskcard {
+    padding: 0 !important;
+}
+
+.card {
+    transition: all .5s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.taskcard:nth-child(3n+1) .card {
+    margin-left: 0px !important;
+}
+
+.taskcard .tskcat {
+    line-height: 20px;
+    height: 22px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.taskcard .card-footer.d-flex {
+    padding: 5px 15px;
+}
+
+.taskcard small.text-muted {
+    margin-top: 5px;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.taskcard .card-header.d-flex {
+    padding: 15px !important;
+    line-height: 20px;
+    height: 60px;
+}
+
+.pagination .page-link {
+    cursor: pointer;
+}
+
+.App-logo {
+    animation: App-logo-rotation infinite 5s linear;
+    height: 50px;
+}
+
+@keyframes App-logo-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
